@@ -1,0 +1,39 @@
+html{
+    
+    font-family: 'Poltawski Nowy', serif;
+
+}
+
+body{
+   margin: 0%;
+}
+
+.navbar{
+    background-color: black;
+    margin: 0px;
+    height: 150px;
+    padding-top: 0px;
+
+}
+.logo {
+    background-color: black;
+    float: left;
+    padding-top: 20px;
+    margin: 0px;
+
+}
+
+.menu{
+    font-family:'Poltawski Nowy', serif;
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    padding-left: 750px;
+}
+
+h1{
+    padding-top: 40px;
+    margin: 5px;
+}
