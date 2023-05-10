@@ -1,25 +1,27 @@
 html{
-    
     font-family: 'Poltawski Nowy', serif;
-
-}
+    font-family: 'Tangerine', cursive;
+  }
 
 body{
-   margin: 0%;
+margin: 0%;
+background: linear-gradient(to bottom,#00223E, #FFA17F);
+background-size: cover;
+background-repeat: no-repeat;
+
 }
 
 .navbar{
-    background-color: black;
+    background-color: #00223E;
     margin: 0px;
-    height: 150px;
+    height: 120px;
     padding-top: 0px;
-
 }
 .logo {
-    background-color: black;
     float: left;
     padding-top: 20px;
     margin: 0px;
+    margin-left: 5px;
 
 }
 
@@ -33,7 +35,82 @@ body{
     padding-left: 750px;
 }
 
+/*estilos textos*/
 h1{
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 300;
     padding-top: 40px;
     margin: 5px;
 }
+
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family:'Poltawski Nowy', serif;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+}
+h3{
+    font-family:'Poltawski Nowy', serif;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: justify;
+    color: aliceblue;
+    position: relative;
+
+}
+
+.heroimg {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    border-radius: 40%;
+}
+
+.slogan {
+
+    position: left; 
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 50%;
+    border-radius: 10px;
+
+    
+}
+#reserva{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 34, 62, .8);
+    color: white;
+    align-items: center;
+    margin-left: 23%;
+}
+
+#carta{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 34, 62, .8);
+    color: white;
+    align-items: center;
+}
+
+.texto{
+    align-items: center;
+    background-color: #00223E;
+    margin-top: 15%;
+    padding: 35px;
+}
+/*
+    background-color: rgb(255, 161, 127, .5);
+    background: linear-gradient(to top , rgb(0, 34, 62, .5),rgb(255, 161, 127, .5));*/
